@@ -36,3 +36,29 @@ El desarrollo se organiza cronológicamente por sprints semanales:
 ├── Week_2/                 # [Planeado] Optimización de Loss Functions & Augmentation
 ├── Week_3/                 # [Planeado] Refinamiento de Arquitectura y Dockerización
 └── README.md              # Este archivo
+```
+
+## Bitácora de Avance
+
+| Sprint   | Fechas          | Foco Principal                 | Estado       | Entregables Clave                                                                     |
+| -------- | --------------- | ------------------------------ | ------------ | ------------------------------------------------------------------------------------- |
+| Semana 1 | Dic 1 - Dic 5   | Ingeniería de Datos & Baseline | ✅ Completado | Pipeline verificado, Subset estratificado, Métricas baseline.                        |
+| Semana 2 | Dic 9 - Dic 12  | Estrategias de Optimización    | ⏳ Pendiente  | Implementación de Focal Loss, SmoothL1 y aumentación geométrica.                      |
+| Semana 3 | Dic 15 - Dic 19 | Despliegue & Contenerización   | ⏳ Pendiente  | Docker final basado en `tytll/isbi-evaluation:latest` y validación en CodaBench.      |
+
+## Stack Tecnológico
+
+- **Core:** PyTorch, Torchvision.
+- **Arquitectura:** EfficientNet-B4 (Encoder) + FPN (Decoder) + Custom Heads.
+- **Data Augmentation:** Albumentations.
+- **Validación:** Scikit-learn, OpenCV.
+- **Entorno de Evaluación:** Docker Image `tytll/isbi-evaluation:latest`.
+
+## Información Oficial del Reto
+
+- **Organizador:** jared2408
+- **Contacto:** fuyc.isbi25@gmail.com
+- **Plataforma:** CodaBench (Competitions v1.6)
+
+
+

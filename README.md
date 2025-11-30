@@ -29,12 +29,12 @@ El desarrollo se organiza cronológicamente por sprints semanales:
 
 ```bash
 .
-├── Week_1/                 # [Completado] Reproducibilidad, ETL y Validación Inicial
+├── Semana_1/                 # [Completado] Reproducibilidad, ETL y Validación Inicial
 │   ├── src/               # Scripts de saneamiento (subset) y entrenamiento
-│   ├── reports/           # Informe técnico, métricas y visualizaciones
+│   ├── Reportes/           # Informe técnico, métricas y visualizaciones
 │   └── README.md          # Documentación técnica de la semana
-├── Week_2/                 # [Planeado] Optimización de Loss Functions & Augmentation
-├── Week_3/                 # [Planeado] Refinamiento de Arquitectura y Dockerización
+├── Semana_2/                 # [Planeado] Optimización de Loss Functions & Augmentation
+├── Semana_3/                 # [Planeado] Refinamiento de Arquitectura y Dockerización
 └── README.md              # Este archivo
 ```
 

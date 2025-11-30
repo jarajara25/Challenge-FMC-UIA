@@ -45,7 +45,7 @@ El subconjunto mantiene rigurosamente las proporciones del dataset original:
 
 ## 2. Arquitectura y Entrenamiento
 
-Se analizó y ejecutó la arquitectura definida en `model_factory.py`, confirmando el uso de un esquema de **Hard Parameter Sharing**.
+Se analizó la arquitectura definida en `model_factory.py`, confirmando el uso de un esquema de **Hard Parameter Sharing**.
 
 * **Backbone Compartido:** EfficientNet-B4 (Pre-entrenado en ImageNet). Actúa como extractor universal de características.
 * **Enrutamiento Lógico:**

@@ -96,7 +96,7 @@ Para replicar estos resultados utilizando los scripts desarrollados:
 
 **1. Generar el subconjunto de datos:**
 ```bash
-# Asegura que la ruta SOURCE_ROOT en el script apunte a tus datos originales
+# Asegura que la ruta SOURCE_ROOT en el script apunte a tus datos
 python src/create_subset.py
 ```
 
@@ -109,7 +109,8 @@ python src/train.py
 3. Evaluar resultados:
 
 ```bash
-
+#Asegura que las rutas apuntes a tus datos
 python src/model.py    # Inferencia
 python src/evaluate.py # Cálculo de métricas
+python src/visualize.py #Visualizar resultados
 ```

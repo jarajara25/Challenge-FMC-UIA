@@ -43,7 +43,7 @@ El desarrollo se organiza cronológicamente por sprints semanales:
 | Sprint   | Fechas          | Foco Principal                 | Estado       | Entregables Clave                                                                     |
 | -------- | --------------- | ------------------------------ | ------------ | ------------------------------------------------------------------------------------- |
 | Semana 1 | Dic 1 - Dic 5   | Ingeniería de Datos & Baseline | ✅ Completado | Pipeline verificado, Subset estratificado, Métricas baseline.                        |
-| Semana 2 | Dic 9 - Dic 12  | Estrategias de Optimización    | ⏳ Pendiente  | Implementación de Focal Loss, SmoothL1 y aumentación geométrica.                      |
+| Semana 2 | Dic 9 - Dic 12  | Estrategias de Optimización    | ⏳ Pendiente  | Implementación de posibles mejoras al modelo.                      |
 | Semana 3 | Dic 15 - Dic 19 | Despliegue & Contenerización   | ⏳ Pendiente  | Docker final basado en `tytll/isbi-evaluation:latest` y validación en CodaBench.      |
 
 ## Stack Tecnológico
